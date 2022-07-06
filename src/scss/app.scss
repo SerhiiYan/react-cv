@@ -59,7 +59,7 @@ body {
     height: fit-content;
     padding: 30px;
     color: #333;
-    text-align: center;
+    
     box-shadow: $shadow-box;
 
     .home {
@@ -85,6 +85,7 @@ body {
       }
     }
     .about {
+      display: none !important;
       display: flex;
       .left {
         margin-right: 1.5rem;
@@ -103,6 +104,27 @@ body {
           font-weight: 400;
           margin-bottom: 1.2rem;
         }
+      }
+    }
+    .resume {
+      display: flex;
+      font-weight: 400;
+      ul {
+        padding: 15px;
+      }
+      h2 {
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+      }
+      .left {
+        padding-right: 25px;
+        h3 {
+          margin: 1rem 0;
+        }
+        flex: 1;
+      }
+      .right {
+        flex: 1;
       }
     }
   }
