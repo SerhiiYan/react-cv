@@ -63,20 +63,21 @@ body {
     box-shadow: $shadow-box;
 
     .home {
-      display: none !important;
       display: flex;
       flex-direction: column;
       align-items: center;
       h1 {
         font-weight: 600;
-        font-size: 3rem;
-        letter-spacing: 1.5px;
+        font-size: 2rem;
         margin-bottom: 1rem;
       }
       p {
         font-size: 1.2rem;
         font-weight: 400;
         margin-bottom: 1.2rem;
+        ul {
+          padding: 25px;
+        }
       }
       div {
         width: 200px;
@@ -85,7 +86,6 @@ body {
       }
     }
     .about {
-      display: none !important;
       display: flex;
       .left {
         margin-right: 1.5rem;
