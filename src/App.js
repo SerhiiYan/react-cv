@@ -15,7 +15,7 @@ function App() {
         </nav>
       </header>
       <div className="content">
-        <div className="container">
+        <div className="container-content">
           <div className="home">
             <h1>I'm Serhii Yanchevskyi</h1>
             <p>
@@ -27,8 +27,6 @@ function App() {
             <div>
               <a href="#">
                 <img
-                  width={32}
-                  height={32}
                   src={process.env.PUBLIC_URL + "/assets/images/facebook.png"}
                   alt="facebook"
                 />
@@ -51,6 +49,24 @@ function App() {
                   alt="github"
                 />
               </a>
+            </div>
+          </div>
+          <div className="about">
+            <div className="left">
+              <img
+                width={250}
+                src={process.env.PUBLIC_URL + "/assets/images/photo.jpg"}
+                alt="avatar"
+              />
+            </div>
+            <div className="right">
+              <h2>ABOUT ME</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Distinctio, eveniet corrupti corporis praesentium deserunt magni
+                fugiat unde nisi alias repellendus voluptates eum veritatis.
+                Consequuntur fuga, ea impedit earum architecto exercitationem.
+              </p>
             </div>
           </div>
         </div>

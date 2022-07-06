@@ -9,25 +9,25 @@ body {
   z-index: 5;
 }
 
-// .wrapper {
-//   position: relative;
-//   background: url('../../public/assets/main-bg.jpg') no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 100vh;
-//   z-index: 1;
-//   &::after {
-//     content: '';
-//     position: absolute;
-//     opacity: 0.3;
-//       top: 0;
-//       left: 0;
-//       right: 0;
-//       z-index: -1;
-//       bottom: 0;
-//       background-color: #333;
-//   }
-// }
+.wrapper {
+  // position: relative;
+  // background: url('../../public/assets/main-bg.jpg') no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  height: 100vh;
+  // z-index: 1;
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   opacity: 0.3;
+  //     top: 0;
+  //     left: 0;
+  //     right: 0;
+  //     z-index: -1;
+  //     bottom: 0;
+  //     background-color: #333;
+  // }
+}
 
 .header {
   height: 4rem;
@@ -35,7 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: $shadow-box;
   nav {
     a {
       color: #333;
@@ -48,34 +48,61 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
-  .container {
-    max-width: 600px;
-    background: #fff;    
-    padding: 15px;
-    color: black;
+  height: 90vh;
+  .container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    max-width: 700px;
+    height: fit-content;
+    padding: 30px;
+    color: #333;
+    text-align: center;
+    box-shadow: $shadow-box;
+
     .home {
+      display: none !important;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
       h1 {
         font-weight: 600;
         font-size: 3rem;
         letter-spacing: 1.5px;
+        margin-bottom: 1rem;
       }
       p {
-        padding: 15px;
         font-size: 1.2rem;
         font-weight: 400;
+        margin-bottom: 1.2rem;
       }
       div {
-        margin-top: 0.4rem;
         width: 200px;
         display: flex;
         justify-content: space-between;
+      }
+    }
+    .about {
+      display: flex;
+      .left {
+        margin-right: 1.5rem;
+      }
+      .right {
+        text-align: justify;
+        h2 {
+          text-align: left;
+          font-weight: 600;
+          font-size: 1.5rem;
+          letter-spacing: 1.5px;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 1.2rem;
+          font-weight: 400;
+          margin-bottom: 1.2rem;
+        }
       }
     }
   }
