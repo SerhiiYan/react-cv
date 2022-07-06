@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav>
-        <Link to="/">HOME</Link>
-        <Link to="about">ABOUT</Link>
-        <Link to="resume">RESUME</Link>
+        <Link to="react-cv/">HOME</Link>
+        <Link to="react-cv/about">ABOUT</Link>
+        <Link to="react-cv/resume">RESUME</Link>
       </nav>
     </header>
   );

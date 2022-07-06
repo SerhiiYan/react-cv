@@ -11,7 +11,7 @@ const About = () => {
         />
       </div>
       <div className="right">
-        <h2>ABOUT ME</h2>
+        <h2>About me</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
           eveniet corrupti corporis praesentium deserunt magni fugiat unde nisi
