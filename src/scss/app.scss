@@ -66,6 +66,14 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      .list {
+        width: 90%;
+        ul {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      
       h1 {
         font-weight: 600;
         font-size: 2rem;
@@ -75,9 +83,6 @@ body {
         font-size: 1.2rem;
         font-weight: 400;
         margin-bottom: 1.2rem;
-        ul {
-          padding: 25px;
-        }
       }
       div {
         width: 200px;
@@ -89,6 +94,10 @@ body {
       display: flex;
       .left {
         margin-right: 1.5rem;
+        img {
+          border-radius: 1rem;
+          box-shadow: $shadow-box;
+        }
       }
       .right {
         text-align: justify;
@@ -97,7 +106,6 @@ body {
           font-weight: 600;
           font-size: 1.5rem;
           letter-spacing: 0.1rem;
-        
           margin-bottom: 1rem;
         }
         p {

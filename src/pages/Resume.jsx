@@ -1,8 +1,13 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Resume = () => {
   return (
-    <div className="resume">
+    <motion.div
+      className="resume"
+      initial={{ x: 300, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0 }}
+    >
       <div className="work left">
         <div>
           <h2>Work experience</h2>
@@ -59,7 +64,7 @@ const Resume = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

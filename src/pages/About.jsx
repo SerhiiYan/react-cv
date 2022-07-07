@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="about">
+    <motion.div
+      className="about"
+      initial={{ x: 300, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0 }}
+    >
       <div className="left">
         <img
           width={250}
@@ -13,13 +19,18 @@ const About = () => {
       <div className="right">
         <h2>About me</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
-          eveniet corrupti corporis praesentium deserunt magni fugiat unde nisi
-          alias repellendus voluptates eum veritatis. Consequuntur fuga, ea
-          impedit earum architecto exercitationem.
+          As a person, I am very simple and humorous, I like to improvise. I
+          love mentoring and helping my friend learn react and js. I have a lot
+          of ideas (a walking idea generator) and one of them is a project to
+          exchange things between people. I am comfortable with people who work
+          as a team, I like to participate in the initial stages of the project,
+          to understand scale. I want to work in an environment where the
+          exchange of creative ideas and shared decision-making are paramount. I
+          am interested in the rapid growth of my skills and I am ready for
+          anything (I go despite the explosion).
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
