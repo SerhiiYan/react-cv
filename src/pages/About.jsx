@@ -27,7 +27,7 @@ const About = () => {
           to understand scale. I want to work in an environment where the
           exchange of creative ideas and shared decision-making are paramount. I
           am interested in the rapid growth of my skills and I am ready for
-          anything (I go despite the explosion).
+          anything.
         </p>
       </div>
     </motion.div>

@@ -11,15 +11,18 @@ const Home = () => {
     >
       <h1>I'm Serhii Yanchevskyi</h1>
       <p>
-        Hello everyone, for about a year I have been studying html, css, js with
-        a big bias towards js and react (now I am studying react, redux). During
-        this time, I took many online courses, such as:
+        Hello everyone, about a year ago I decided to try to learn front-end
+        development, at the moment my knowledge is (html, scss, javaScript,
+        react, redux-toolkit, (typeScript is more theoretical knowledge), I also
+        understand client-server interaction, nodeJS wrote a simple CRUD) there
+        is an experienced mentor who helps me, also took many courses:
       </p>
       <div className="list">
         <ul>
           <li>Ultimate Courses by Todd Motto</li>
           <li>FreeCodeCamp</li>
           <li>LearnJs</li>
+          <li>I am currently studying Next + Sanity</li>
         </ul>
       </div>
       <div>
