@@ -63,6 +63,12 @@ const Home = () => {
             alt="github"
           />
         </a>
+        <a href="https://t.me/howlettme" target="_blank" rel="noreferrer">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/images/telegram.png"}
+            alt="github"
+          />
+        </a>
       </div>
     </motion.div>
   );
