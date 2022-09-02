@@ -22,7 +22,6 @@ const Home = () => {
           <li>Ultimate Courses by Todd Motto</li>
           <li>FreeCodeCamp</li>
           <li>LearnJs</li>
-          <li>I am currently studying Next + Sanity</li>
         </ul>
       </div>
       <div>

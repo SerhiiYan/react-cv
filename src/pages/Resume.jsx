@@ -56,7 +56,10 @@ const Resume = () => {
           <h2>Skills</h2>
           <h3>Programming languages:</h3>
           <ul>
-            <li>HTML/CSS, JavaScript, ReactJS(redux toolkit), TS</li>
+            <li>
+              HTML/CSS, JavaScript, React, TS(basic), Redux, GraphQL(basic),
+              ApolloClient(basic)
+            </li>
           </ul>
           <h3>Development environments:</h3>
           <ul>
