@@ -14,8 +14,7 @@ const Home = () => {
         Hello everyone, about a year ago I decided to try to learn front-end
         development, at the moment my knowledge is (html, scss, javaScript,
         react, redux-toolkit, (typeScript is more theoretical knowledge), I also
-        understand client-server interaction, nodeJS wrote a simple CRUD) there
-        is an experienced mentor who helps me, also took many courses:
+        understand client-server interaction)
       </p>
       <div className="list">
         <ul>

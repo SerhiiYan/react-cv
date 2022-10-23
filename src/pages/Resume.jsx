@@ -65,6 +65,11 @@ const Resume = () => {
           <ul>
             <li>Visual Studio, Git</li>
           </ul>
+          <h3>Hobby:</h3>
+          <ul>
+            <li>Cooking</li>
+            <li>Board games</li>
+          </ul>
         </div>
       </div>
     </motion.div>

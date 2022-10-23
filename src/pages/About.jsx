@@ -20,8 +20,7 @@ const About = () => {
         <h2>About me</h2>
         <p>
           As a person, I am very simple and humorous, I like to improvise. I
-          love mentoring and helping my friend learn react and js. I have a lot
-          of ideas (a walking idea generator) and one of them is a project to
+          love mentoring. I have a lot of ideas and one of them is a project to
           exchange things between people. I am comfortable with people who work
           as a team, I like to participate in the initial stages of the project,
           to understand scale. I want to work in an environment where the
